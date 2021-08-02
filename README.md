@@ -90,9 +90,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   * Use Context
     * use items by using useContext in certain component
   * Use function in Context
-    * useReduced in cartProvider
+    * setup useReduced in cartProvider
+    * going to the component uses useContext for calling function 
+  * ref  ref.current.value to check if input is valid and as parameter to lift up 
+  *
 
-## Problem meeted
+
+## Problem 
 
 1. button is covered by header // add other style will solve it
 2. How to manage id in cart for removing from cart
